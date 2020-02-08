@@ -43,7 +43,8 @@ public class EmployeeController {
                 .orElseThrow(() -> new EmployeeNotFoundException(Id));
 
         employeeRepository.delete(emp1);
-        System.out.println(emp1);
+        System.out.println("test12345");
+
 
         return ResponseEntity.ok().build();
     }
